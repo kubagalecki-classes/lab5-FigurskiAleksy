@@ -1,9 +1,9 @@
 #pragma once
 
-#include "Human.hpp"
-
+#include<iostream>
 #include <list>
 #include <vector>
+#include "Human.hpp"
 
 std::vector< char > foo(std::list< Human >& people)
 {
