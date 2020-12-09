@@ -16,7 +16,7 @@ std::vector< char > foo(std::list< Human >& people)
     for (auto it = people.rbegin(); it != people.rend(); it++) 
     {
         if(it->ismonstter())
-            monst.push_back('n')
+            monst.push_back('n');
         else
             monst.push_back('y');
     }
